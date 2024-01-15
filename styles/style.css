@@ -1,0 +1,79 @@
+/* Fonts and Var */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+:root{
+    --primary-color: #FF5400;
+    --text-white: #fff;
+    --text-black: #131318;
+    --p-fst: rgba(19, 19, 24, 0.70);
+    --p-sec: #5A5A5D;
+    --p-third: #424247;
+}
+
+/* Common styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+header, main{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.25rem;
+}
+
+.logo{
+    display: flex;
+    gap: 1rem;
+}
+.logo h1 span{
+    color: var(--primary-color);
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--p-third);
+    margin-left: 2.75rem;
+}
+
+nav ul li:nth-child(1) a{
+    color: var(--primary-color);
+}
+header svg{
+    display: none;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:600px){ 
+    header, main{
+        width: 90%;
+    }
+    /* header */
+    nav{      
+        display: none;
+    }
+    header svg{
+        display: block;
+    }
+}
