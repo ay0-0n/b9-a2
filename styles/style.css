@@ -184,6 +184,49 @@ header svg{
     border-radius: 16px;
 }
 
+/* Destination */
+
+.dest{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.dest-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.dest-title p{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    color: var(--p-fst);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem
+}
+.des-img-r1, .des-img-r2, .des-img-r3{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.venue{
+    width: 100%;
+}
+
+
+.des-pos{
+    position: relative;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    bottom: 50%;
+}
+
+
+
 
 
 
@@ -252,5 +295,28 @@ header svg{
     }
     .popular-b2{
         width: 100%;
+    }
+
+    /* Destination */
+    .dest{
+        margin-top: 3.25rem;
+    }
+    .dest-title h1{
+        font-size: 1.75rem;
+    }
+    .dest-title p{
+        width: 90%;
+    }
+    .des-img-r1, .des-img-r2, .des-img-r3{
+        flex-direction: column;
+        gap: 0;
+    }
+    .venue{
+        width: 100%;
+        aspect-ratio: 1.90/1;
+    }
+    .des-pos{
+        bottom: 130px;
+        font-size: 1.5rem;  
     }
 }
