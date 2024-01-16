@@ -28,7 +28,7 @@ header, main{
     color: #FFF;
     font-size: 1.25rem;
     text-align: center;
-
+    padding: 0.9rem 2rem ;  
 }
 /* header */
 header{
@@ -143,8 +143,46 @@ header svg{
     margin: 0;
 }
 
-/*PopularTours */
 
+/*PopularTours */
+.popular{
+    display: flex;
+    margin-top: 6.25rem;
+    justify-content: space-between;
+}
+
+.popular-b1{
+    width: 48%;
+    color: var(--p-fst);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.popular-b1 h3{
+    color: var(--text-black);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.popular-b1 ul{
+    padding-left: 1.5rem;  
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;  
+}
+.popular-b1 ul li{
+    margin-bottom: 1rem;
+}
+.popular-p2{
+    margin-bottom: 2.5rem;
+    color: var(--p-second);
+}
+.popular-b2{
+    width: 48%;
+}
+.popular-b2 img{
+    width: 100%;
+    border-radius: 16px;
+}
 
 
 
@@ -205,4 +243,14 @@ header svg{
     }
 
     /*PopularTours */
+    .popular{
+        flex-direction: column;
+    }
+    .popular-b1{
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .popular-b2{
+        width: 100%;
+    }
 }
