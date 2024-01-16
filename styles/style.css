@@ -280,9 +280,47 @@ header svg{
 }
 
 
+/* perfect place */
+.perfect{
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.perfect-place, .video{
+    width: 48%;
+}
+video{
+    width: 100%;
+    border-radius: 16px;
+    height: 100%;
+}
+.perfect-place h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.75rem;
 
+}
+.perfect-place p{
+    width: 90%;
+    margin-bottom: 1.5rem;
+    color: var(--p-fst);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem
+}
+.perfect-place ul{
+    padding-left: 1.5rem;  
+    margin-bottom: 1rem;  
+}
+.perfect-place ul li{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    color: #131318;
+}
 
-
+/*Newsletter */
 
 
 
@@ -385,4 +423,18 @@ header svg{
     .card1, .card2, .card3{
         width: 100%;
     }
+    /* perfect place */
+    .perfect{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .perfect-place, .video{
+        width: 100%;
+    }
+    video{
+        margin-top: 2rem;
+        height: 100%;
+    }
+
+    /*Newsletter */
 }
