@@ -321,11 +321,78 @@ video{
 }
 
 /*Newsletter */
+.newsletter{
+    margin-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.news{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 2.5rem;
+    height: 57%;
+}
+.news h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news p{
+    margin: 1rem 0;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem
+}
+.news hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 1.5rem;
+}
+.news input{
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+}
+.news button{
+    width: 100%;
+    margin-top: 1.5rem; 
+}
 
+.news-img{
+    width: 59%;
 
+}
+.news-img img{
+    width: 100%;
+}
+.news-img div{
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    width: 50%;
+    padding: 1.5rem;
+    position: relative;
+    transform-origin: bottom left;
+    transform:translateX(105%) translateY(-100%) rotate(-19deg);   
+    
+}
+.news-img p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
+.news-img h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
 
-
+/*My own Section */
 
 
 
@@ -416,6 +483,9 @@ video{
     .why h1{
         font-size: 1.5rem;
     }
+    .why p{
+        width: 90%;
+    }   
     .crd-container1{
         flex-direction: column;
         gap: 1rem;
@@ -437,4 +507,23 @@ video{
     }
 
     /*Newsletter */
+    .newsletter{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .news{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .news-img{
+        width: 100%;
+    }
+    .news-img p{
+        font-size:0.98rem;
+    }
+    .news-img h3{
+        font-size: 1.25rem;
+    }
+
+    /*My own Section */
 }
