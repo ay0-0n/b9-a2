@@ -428,6 +428,40 @@ video{
     line-height: 1.625rem
 }
 
+/* Footer */
+footer{
+    margin-top: 6.25rem;
+    background: rgba(19, 19, 24, 0.05);;
+    text-align: center;
+}
+.footer-container{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+.footer-container p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.footer-container hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 3rem;
+    margin-top: 3rem ;
+}
+
+.footer-logo{
+    justify-content: center;
+    
+}
+.logo svg{
+    margin: 0 auto;
+}
 
 /* Mobile Responsive */
 @media screen and (max-width:600px){ 
@@ -564,5 +598,9 @@ video{
     }
     .reviews div{
         width: 100%;
+    }
+    
+    .footer-container{
+        width: 90%;
     }
 }
