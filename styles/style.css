@@ -73,7 +73,7 @@ header svg{
 /* Explore */
 .explore{
     text-align: center;
-    background-image: url('../Images/ 13\ \(1\)\ \(1\).png');
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     border-radius: 16px;
     margin-top: 3rem;
@@ -159,7 +159,7 @@ header svg{
 
 
 
-/* Responsive */
+/* Mobile Responsive */
 @media screen and (max-width:600px){ 
     header, main{
         width: 90%;
@@ -203,4 +203,6 @@ header svg{
         width: 100%;
         padding: 1rem;
     }
+
+    /*PopularTours */
 }
